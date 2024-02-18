@@ -34,7 +34,7 @@ const Login = () => {
             .then((userCredential) => {
                 // Signed up 
                 const user = userCredential.user;
-                updateProfile(auth.user, {
+                updateProfile(user, {
                     displayName: name.current.value
                   }).then(() => {
                     const {uid, email, displayName} = auth.currentUser;

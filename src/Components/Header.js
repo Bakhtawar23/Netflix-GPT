@@ -18,7 +18,7 @@ const Header = () => {
     return(
         <div className="flex justify-between w-screen absolute px-8 py-2 bg-gradient-to-b from-black z-10">
             <img className="w-44" src={logo} alt="netflix-logo"/>
-            {user && (<div className="">
+            {user && (<div>
                 <button onClick={handleSignOut} className="m-2 p-2 border font-bold text-white">Sign Out</button>
             </div>)
             }
