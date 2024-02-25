@@ -15,5 +15,18 @@
 - added slice reducer onto store 
 - Provided store
 - Implemented Sign Out
-- Update Profile 
-- Fetch movies from TMDB
+- Update Profile
+- Bug fix: redirect user based on login, user can't access via url change
+- unmounting auth by returning unsubscribe()
+- Register for TMDB
+- Get access token
+- Get data from TMDB now playing movies list
+- Get data in browse page to display
+- custom hook for NowPlayingMovies
+- create movieslice
+- update store with moviesdata
+- fetch data for trailer video
+- update store with trailer video data
+- embedded YT video and made it autoplay and mute
+- added tailwind to mainContainer
+
