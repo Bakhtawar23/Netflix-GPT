@@ -1,16 +1,16 @@
 # NETFLIX-GPT
 
 - Create react app
-- Configured TailwindCSS
+- Configured TailwindCSS **
 - Configuring routing
 - Header(with logo)
 - Login page with SIGNIn and SIGNUp toggle
 - Form Validation 
 - useRef hook
 - Firebase Setup
-- Deploying app to prod using Firebase
+- Deploying app to prod using Firebase **
 - Sign in Signup logic from firebase docs
-- Redux : created a redux store 
+- Redux : created a redux store  **
 - created a slice
 - added slice reducer onto store 
 - Provided store
@@ -29,4 +29,12 @@
 - update store with trailer video data
 - embedded YT video and made it autoplay and mute
 - added tailwind to mainContainer
+- build secondary container
+- build movieList
+- build movieCard
+- usePopularMovies hook
+- GPT search page
+- GPT search bar
+- added Multi-lingual search bar option  **
+- Integrate GPT API's 
 
