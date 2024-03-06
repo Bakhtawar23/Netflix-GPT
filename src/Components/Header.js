@@ -46,8 +46,8 @@ const Header = () => {
     }
 
     return(
-        <div className="flex justify-between w-screen absolute px-8 py-2 bg-gradient-to-b from-black z-10">
-            <img className="w-44" src={logo} alt="netflix-logo"/>
+        <div className="flex justify-between w-screen absolute px-8 py-2 bg-gradient-to-b from-black z-10 flex-col md:flex-row">
+            <img className="w-44 mx-auto md:mx-0" src={logo} alt="netflix-logo"/>
             {user && 
             (<div>
                 {showGptSearch && <select className="p-2 m-2 bg-gray-900 text-white" onChange={handleLanguageChange}>

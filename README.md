@@ -37,4 +37,4 @@
 - GPT search bar
 - added Multi-lingual search bar option  **
 - Integrate GPT API's 
-
+- 
