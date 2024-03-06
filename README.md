@@ -37,4 +37,6 @@
 - GPT search bar
 - added Multi-lingual search bar option  **
 - Integrate GPT API's 
-- 
+- GPT search page with results from GPT
+- Example search funny movies then GPT will give movie results and by using MovieList and MovieCard component we display it under GPT   page
+- Memoization limiting API calls if store is not empty
