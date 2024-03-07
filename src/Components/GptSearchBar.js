@@ -29,7 +29,7 @@ const GptSearchBar = () => {
         const gptMovies = gptResults?.choices?.[0]?.message?.content.split(", ");
 
         const promiseArray = gptMovies.map((movie)=>{
-            searchMovieTMDB(movie); 
+            return searchMovieTMDB(movie); 
         })
         const tmdbResults = await Promise.all(promiseArray);
 
