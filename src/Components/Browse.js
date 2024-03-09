@@ -14,7 +14,7 @@ const Browse = () => {
     return(
        <div>
           <Header/>
-         {showGptSearch ? (<GptSearch/> ):
+          {showGptSearch ? (<GptSearch/> ):
             (<>
               <MainContainer/>
               <SecondaryContainer/>
